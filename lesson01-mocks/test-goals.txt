@@ -1,0 +1,4 @@
+O objetivo é criar mocks independentes para que o teste "A" nunca dependa do teste "B"
+
+Observe que nesse caso nós criamos um arquivo para cada caso que devemos testar, dessa forma nossos testes conseguem
+ser executados em qualquer ordem e de maneira independete pois "mockamos" cada cenario

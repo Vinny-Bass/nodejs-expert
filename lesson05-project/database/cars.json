@@ -1,0 +1,23 @@
+[
+  {
+    "id": "05a225cf-d12b-48f7-843c-e53aa7e4aa52",
+    "name": "V90",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "7d713c6b-207b-4672-b86e-c237dd864d0b",
+    "name": "Model S",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "84913461-7f19-46f0-b5b4-c166389d54ff",
+    "name": "1",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  }
+]

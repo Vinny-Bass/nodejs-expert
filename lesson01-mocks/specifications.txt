@@ -1,0 +1,4 @@
+- should not proccess empty files
+- should not proccess files with invalid headers (id, name, profession, birthYear) -> ok
+- should not proccess files with more then 4 lines
+- should proccess a valid csv file

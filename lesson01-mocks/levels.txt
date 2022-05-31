@@ -1,0 +1,19 @@
+Beginner
+ - Should create a code that do the validations
+ - Should create tests
+
+Intermedium
+- All things above
+- Is good if the candidate create an individual mock for each case, but not a must
+- Is good to use a class and functions with unique proposels (clean code)
+
+Advanced
+- All the things above
+- should be capable of read the giant file using the best pratices(streams or generators, etc...)
+
+
+Code quality should be evaluated by a nodejs developer.
+
+There are multiple ways to complete both parts of the test, but each will show the level the candidate is at.
+
+part 2 is the most difficult, a senior developer is expected to use more advanced techniques like streams or generators to achieve the goal without running out of memory. If the recruiter realizes that the candidate will not be able to complete part 2 because of time, ask the candidate to describe step by step what he would do to solve the problem.

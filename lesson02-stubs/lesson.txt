@@ -1,0 +1,10 @@
+Nossos testes jamais devem depender de nada externo, seja um banco de dados ou uma API,
+eles devem ser capazes de rodar offline sempre e jamais depender de servicos externos
+
+Para isso usamos stubs, onde nós substituimos o comportamento da funcao, por exemplo, se tivermos uma funcao
+que acessa uma API externa, devemos substituir seu comportamento para que ela va buscar um objeto mocado ao inves
+de acessar a internet.
+
+Para isso podemos bater na API uma vez e jogar o resultado em um arquivo de mock, por exemplo:
+
+node src/service.tests.js > mocks/heroes.json

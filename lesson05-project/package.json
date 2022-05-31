@@ -1,0 +1,25 @@
+{
+  "name": "lesson05-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "nodemon ./src/index.js",
+    "seed": "node ./seed",
+    "test": "mocha -w --parallel ./**/**/*.test.js",
+    "test:cov": "nyc mocha --parallel **/**/*.test.js"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.1.0",
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.16",
+    "nyc": "^15.1.0",
+    "sinon": "^14.0.0",
+    "supertest": "^6.2.3"
+  },
+  "dependencies": {
+    "chai": "^4.3.6",
+    "pino": "^7.11.0",
+    "pino-pretty": "^7.6.1"
+  }
+}
